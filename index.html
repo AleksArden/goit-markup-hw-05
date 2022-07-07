@@ -123,31 +123,49 @@
           <h2 class="benefits-title">Чем мы занимаемся</h2>
           <ul class="benefits-list list">
             <li class="benefits-item">
-              <img
-                class="benefits-image"
-                src="./images/benefits/box1.jpg"
-                alt="Клавиатура и планшет"
-                width="370"
-                height="294"
-              />
+              <div class="benefits-thumb">
+                <img
+                  class="benefits-image"
+                  src="./images/benefits/box1.jpg"
+                  alt="Клавиатура и планшет"
+                  width="370"
+                  height="294"
+                />
+
+                <div class="benefits-overlay">
+                  <p class="benefits-text">Десктопные приложения</p>
+                </div>
+              </div>
             </li>
             <li class="benefits-item">
-              <img
-                class="benefits-image"
-                src="./images/benefits/box2.jpg"
-                alt="Смартфон и ноутбук"
-                width="370"
-                height="294"
-              />
+              <div class="benefits-thumb">
+                <img
+                  class="benefits-image"
+                  src="./images/benefits/box2.jpg"
+                  alt="Смартфон и ноутбук"
+                  width="370"
+                  height="294"
+                />
+
+                <div class="benefits-overlay">
+                  <p class="benefits-text">Мобильные приложения</p>
+                </div>
+              </div>
             </li>
             <li class="benefits-item">
-              <img
-                class="benefits-image"
-                src="./images/benefits/box3.jpg"
-                alt="Планшет"
-                width="370"
-                height="294"
-              />
+              <div class="benefits-thumb">
+                <img
+                  class="benefits-image"
+                  src="./images/benefits/box3.jpg"
+                  alt="Планшет"
+                  width="370"
+                  height="294"
+                />
+
+                <div class="benefits-overlay">
+                  <p class="benefits-text">Дизайнерские решения</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -517,5 +535,20 @@
         </div>
       </div>
     </footer>
+    <!-- modal -->
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="btn-modal-close" type="button">
+          <svg
+            class="icon-modal-close"
+            width="30"
+            height="30"
+            aria-label="кнопка закрытия окна заказа"
+          >
+            <use href="./images/icons.svg#-modal-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
